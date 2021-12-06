@@ -74,21 +74,25 @@ function set_time(){
     if(mrng==hours){
         document.getElementById("img_container").style.backgroundImage="url(./assets/what_a_drag.jpg)";
         document.getElementById("it_is_time").innerHTML="Good morning!!";
+        document.getElementById("it_is_time").style.backgroundColor="#80ccff";
     }
         
    else if(lunchh==hours){
         document.getElementById("img_container").style.backgroundImage="url(./assets/Thanks_for_the_meal.jpg)";
         document.getElementById("it_is_time").innerHTML="Lunch Time!!";
+        document.getElementById("it_is_time").style.backgroundColor="#80ccff";
    }    
     
     else if(dine==hours){
         document.getElementById("img_container").style.backgroundImage="url(./assets/fine_dine.png)";
         document.getElementById("it_is_time").innerHTML="Dinner Time!!";
+        document.getElementById("it_is_time").style.backgroundColor="#80ccff";
     }
 
     else if(napp==hours){
         document.getElementById("img_container").style.backgroundImage="url(./assets/Sleeep.png)";
         document.getElementById("it_is_time").innerHTML="Good Night!!";
+        document.getElementById("it_is_time").style.backgroundColor="#80ccff";
     }
     Make_div();   //Calling function on line 37
 }
